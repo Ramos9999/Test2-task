@@ -1,0 +1,77 @@
+@import '../../styles/';
+
+.container {
+  border: 5px solid $white;
+  display: flex;
+  flex-basis: 20%;
+  justify-content: center;
+  max-width: 290px;
+  padding: 10px;
+
+  @include bp-below('medium') {
+    border-width: 1px;
+    align-self: center;
+    flex-direction: column;
+    padding: 20px 0;
+    width: 90%;
+  }
+
+  &:hover {
+    box-shadow: 5px 10px $boold-red;
+  }
+}
+
+.avatarImage {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid $white;
+
+  @include bp-below('small') {
+    height: 150px;
+    margin: 0 auto;
+    width: 150px;
+  }
+}
+
+.info {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.username,
+.goToProfile {
+  color: $white;
+}
+
+.username {
+  display: flex;
+}
+
+.tag {
+  color: $boold-red;
+}
+
+.goToProfile {
+  margin-top: 30px;
+  border: 1px solid $white;
+  width: fit-content;
+  padding: 10px;
+  height: fit-content;
+
+  &:hover {
+    background-color: $light-black;
+  }
+}
+
+.name {
+  color: $white;
+}
+
+.description {
+  color: $white;
+  margin: 20px;
+  text-align: center;
+}

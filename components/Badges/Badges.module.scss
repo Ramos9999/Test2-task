@@ -1,0 +1,27 @@
+@import '../../styles/';
+
+.container {
+  align-items: center;
+  border-bottom: 1px solid $boold-red;
+  column-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 10px;
+  row-gap: 5px;
+}
+
+.badge {
+  align-items: center;
+  border: 1px solid $boold-red;
+  color: $white;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.tag {
+  color: $boold-red;
+}

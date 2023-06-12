@@ -1,0 +1,45 @@
+@import '../../styles/';
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+
+  @include bp-below('medium') {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.toggleButton {
+  align-items: center;
+  background-color: $black;
+  border: 1px solid $white;
+  color: $white;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  text-transform: capitalize;
+  width: 200px;
+
+  &:hover {
+    background-color: $light-black;
+  }
+
+  @include bp-below('medium') {
+    margin-top: 20px;
+    width: 350px;
+  }
+
+  @include bp-below('small') {
+    width: 200px;
+  }
+}
+
+.checkBoxLogo {
+  filter: none;
+  height: fit-content;
+  margin-right: 10px;
+  padding: 0;
+  width: 30px;
+}

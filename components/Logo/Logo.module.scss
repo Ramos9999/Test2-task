@@ -1,0 +1,13 @@
+@import '../../styles/';
+
+.container {
+  padding-top: 50px;
+}
+
+.logo {
+  filter: invert(1);
+
+  @include bp-below('small') {
+    width: 70px;
+  }
+}

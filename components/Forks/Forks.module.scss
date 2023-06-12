@@ -1,0 +1,26 @@
+@import '../../styles/';
+
+.container {
+  align-items: center;
+  column-gap: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  justify-content: center;
+  row-gap: 5px;
+}
+
+.fork {
+  align-items: center;
+  border: 1px solid $boold-red;
+  color: $white;
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  margin-right: 10px;
+  width: fit-content;
+}
+
+.tag {
+  color: $boold-red;
+}

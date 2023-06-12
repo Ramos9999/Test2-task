@@ -1,0 +1,45 @@
+@import './color';
+@import './break-points';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.result-container {
+  column-gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 15px;
+
+  @include bp-below('medium') {
+    flex-direction: column;
+  }
+}
+
+.no-data {
+  color: $white;
+  display: flex;
+  font-size: 35px;
+  justify-content: center;
+  margin-top: 250px;
+}

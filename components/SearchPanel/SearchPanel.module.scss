@@ -1,0 +1,51 @@
+@import '../../styles/';
+
+input[type='search'].searchInput {
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    -webkit-appearance: none;
+  }
+}
+
+.container {
+  margin: 200px 0;
+  max-width: 800px;
+  width: 100%;
+
+  @include bp-below(large) {
+    width: 80%;
+  }
+}
+
+.searchForm {
+  align-items: center;
+  box-shadow: inset 0 -1px 0 0 $white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+  position: relative;
+}
+
+.searchInput {
+  appearance: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 20px;
+  height: 40px;
+  outline: none;
+  width: 100%;
+}
+
+.searchSubmit {
+  height: 24px;
+  width: 24px;
+}
+
+.searchLogo {
+  height: 25px;
+  padding-top: 0;
+  width: 25px;
+}
