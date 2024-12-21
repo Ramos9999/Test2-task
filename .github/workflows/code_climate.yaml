@@ -1,0 +1,42 @@
+name: "Code Climate Analysis"
+
+on:
+  pull_request:                        # Runs on PRs
+  push:                                # Runs on merge/push to main
+    branches:
+      - main
+
+jobs:
+  code-climate:
+    name: "Unit Tests & Code Climate"
+    runs-on: "ubuntu-latest"
+    timeout-minutes: 15
+    env:
+      CC_TEST_REPORTER_ID: "f6c3abb5bcea39bde8eef68a637b29e059ebba2cbf5eef3e629fedc74f19193d"  # Code Climate token
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20.x
+
+      - name: Install Node Packages
+        run: npm ci
+        timeout-minutes: 5
+
+      - name: Get Commit Timestamp
+        run: echo "COMMITTED_AT=$(git log -1 --format='%ct')" >> $GITHUB_ENV
+
+      - name: Run Tests with Coverage
+        run: |
+          npm run test-coverage || true  # Run tests and allow upload to continue
+
+      - name: Upload Coverage Report to Code Climate
+        uses: paambaati/codeclimate-action@v9.0.0
+        env:
+          COMMITTED_AT: ${{ env.COMMITTED_AT }}
+        with:
+          coverageCommand: echo "Coverage report generated, uploading to Code Climate"
+          debug: true

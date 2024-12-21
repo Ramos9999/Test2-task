@@ -1,0 +1,189 @@
+fbeda4c8d93e72297babbea197e5319c
+/* istanbul ignore next */
+"use strict";
+
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+var _objectWithoutProperties2 = _interopRequireDefault(require("@babel/runtime/helpers/objectWithoutProperties"));
+var
+/* istanbul ignore next */
+_react = _interopRequireDefault(require("react"));
+var
+/* istanbul ignore next */
+_image = _interopRequireDefault(require("next/image"));
+var
+/* istanbul ignore next */
+_classnames = _interopRequireDefault(require("classnames"));
+var
+/* istanbul ignore next */
+_LogoModule = _interopRequireDefault(require("./Logo.module.scss"));
+/* istanbul ignore next */
+const _excluded = ["altMessage", "srcLogo", "className"];
+var _jsxFileName = "C:\\Users\\DELL\\Desktop\\Test2-task\\components\\Logo\\index.tsx";
+var __jsx = _react.default.createElement;
+function cov_25daqb9ee5() {
+  var path = "C:\\Users\\DELL\\Desktop\\Test2-task\\components\\Logo\\index.tsx";
+  var hash = "4e563eb15fd290bc38e77d65f3f25f549d191066";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "C:\\Users\\DELL\\Desktop\\Test2-task\\components\\Logo\\index.tsx",
+    statementMap: {
+      "0": {
+        start: {
+          line: 13,
+          column: 13
+        },
+        end: {
+          line: 26,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 19,
+          column: 2
+        },
+        end: {
+          line: 25,
+          column: 4
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 13,
+            column: 13
+          },
+          end: {
+            line: 13,
+            column: 14
+          }
+        },
+        loc: {
+          start: {
+            line: 19,
+            column: 2
+          },
+          end: {
+            line: 25,
+            column: 4
+          }
+        },
+        line: 19
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 14,
+            column: 2
+          },
+          end: {
+            line: 14,
+            column: 17
+          }
+        },
+        type: "default-arg",
+        locations: [{
+          start: {
+            line: 14,
+            column: 15
+          },
+          end: {
+            line: 14,
+            column: 17
+          }
+        }],
+        line: 14
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0]
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "4e563eb15fd290bc38e77d65f3f25f549d191066"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_25daqb9ee5 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_25daqb9ee5();
+cov_25daqb9ee5().s[0]++;
+const Logo =
+/* istanbul ignore next */
+_ref => {
+  /* istanbul ignore next */
+  let {
+      altMessage =
+      /* istanbul ignore next */
+      (cov_25daqb9ee5().b[0][0]++, ''),
+      srcLogo,
+      className
+    } = _ref,
+    restProps = (0, _objectWithoutProperties2.default)(_ref, _excluded);
+  /* istanbul ignore next */
+  cov_25daqb9ee5().f[0]++;
+  cov_25daqb9ee5().s[1]++;
+  return /* istanbul ignore next */__jsx(
+  /* istanbul ignore next */
+  _image.
+  /* istanbul ignore next */
+  default,
+  /* istanbul ignore next */
+  {
+    className:
+    /* istanbul ignore next */
+    (0,
+    /* istanbul ignore next */
+    _classnames.
+    /* istanbul ignore next */
+    default)(
+    /* istanbul ignore next */
+    _LogoModule.
+    /* istanbul ignore next */
+    default.logo,
+    /* istanbul ignore next */
+    _LogoModule.
+    /* istanbul ignore next */
+    default.container, className),
+    src: srcLogo,
+    alt: altMessage,
+    width: 100,
+    height: 100,
+    __self: void 0,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19,
+      columnNumber: 3
+    }
+  });
+};
+/* istanbul ignore next */
+var _default = Logo;
+/* istanbul ignore next */
+exports.default = _default;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfcmVhY3QiLCJfaW50ZXJvcFJlcXVpcmVEZWZhdWx0IiwicmVxdWlyZSIsIl9pbWFnZSIsIl9jbGFzc25hbWVzIiwiX0xvZ29Nb2R1bGUiLCJfZXhjbHVkZWQiLCJfanN4RmlsZU5hbWUiLCJfX2pzeCIsImRlZmF1bHQiLCJjcmVhdGVFbGVtZW50IiwiY292XzI1ZGFxYjllZTUiLCJwYXRoIiwiaGFzaCIsImdsb2JhbCIsIkZ1bmN0aW9uIiwiZ2N2IiwiY292ZXJhZ2VEYXRhIiwic3RhdGVtZW50TWFwIiwic3RhcnQiLCJsaW5lIiwiY29sdW1uIiwiZW5kIiwiZm5NYXAiLCJuYW1lIiwiZGVjbCIsImxvYyIsImJyYW5jaE1hcCIsInR5cGUiLCJsb2NhdGlvbnMiLCJzIiwiZiIsImIiLCJfY292ZXJhZ2VTY2hlbWEiLCJjb3ZlcmFnZSIsImFjdHVhbENvdmVyYWdlIiwiTG9nbyIsIl9yZWYiLCJhbHRNZXNzYWdlIiwic3JjTG9nbyIsImNsYXNzTmFtZSIsInJlc3RQcm9wcyIsIl9vYmplY3RXaXRob3V0UHJvcGVydGllczIiLCJjeCIsInN0eWxlcyIsImxvZ28iLCJjb250YWluZXIiLCJzcmMiLCJhbHQiLCJ3aWR0aCIsImhlaWdodCIsIl9fc2VsZiIsIl9fc291cmNlIiwiZmlsZU5hbWUiLCJsaW5lTnVtYmVyIiwiY29sdW1uTnVtYmVyIiwiX2RlZmF1bHQiLCJleHBvcnRzIl0sInNvdXJjZXMiOlsiaW5kZXgudHN4Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBSZWFjdCwgeyBSZWFjdEVsZW1lbnQgfSBmcm9tICdyZWFjdCc7XHJcbmltcG9ydCBJbWFnZSBmcm9tICduZXh0L2ltYWdlJztcclxuaW1wb3J0IGN4IGZyb20gJ2NsYXNzbmFtZXMnO1xyXG5cclxuaW1wb3J0IHN0eWxlcyBmcm9tICcuL0xvZ28ubW9kdWxlLnNjc3MnO1xyXG5pbXBvcnQgRGVmYXVsdFByb3BzIGZyb20gJ0AvdHlwaW5ncy9EZWZhdWx0UHJvcHMnO1xyXG5cclxuaW50ZXJmYWNlIElMb2dvIGV4dGVuZHMgRGVmYXVsdFByb3BzIHtcclxuICBhbHRNZXNzYWdlPzogc3RyaW5nO1xyXG4gIHNyY0xvZ286IHN0cmluZztcclxufVxyXG5cclxuY29uc3QgTG9nbyA9ICh7XHJcbiAgYWx0TWVzc2FnZSA9ICcnLFxyXG4gIHNyY0xvZ28sXHJcbiAgY2xhc3NOYW1lLFxyXG4gIC4uLnJlc3RQcm9wc1xyXG59OiBJTG9nbyk6IFJlYWN0RWxlbWVudCA9PiAoXHJcbiAgPEltYWdlXHJcbiAgICBjbGFzc05hbWU9e2N4KHN0eWxlcy5sb2dvLCBzdHlsZXMuY29udGFpbmVyLCBjbGFzc05hbWUpfVxyXG4gICAgc3JjPXtzcmNMb2dvfVxyXG4gICAgYWx0PXthbHRNZXNzYWdlfVxyXG4gICAgd2lkdGg9ezEwMH1cclxuICAgIGhlaWdodD17MTAwfVxyXG4gIC8+XHJcbik7XHJcblxyXG5leHBvcnQgZGVmYXVsdCBMb2dvO1xyXG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7OztBQUFBO0FBQUE7QUFBQUEsTUFBQSxHQUFBQyxzQkFBQSxDQUFBQyxPQUFBO0FBQ0E7QUFBQTtBQUFBQyxNQUFBLEdBQUFGLHNCQUFBLENBQUFDLE9BQUE7QUFDQTtBQUFBO0FBQUFFLFdBQUEsR0FBQUgsc0JBQUEsQ0FBQUMsT0FBQTtBQUVBO0FBQUE7QUFBQUcsV0FBQSxHQUFBSixzQkFBQSxDQUFBQyxPQUFBO0FBQXdDO0FBQUEsTUFBQUksU0FBQTtBQUFBLElBQUFDLFlBQUE7QUFBQSxJQUFBQyxLQUFBLEdBQUFSLE1BQUEsQ0FBQVMsT0FBQSxDQUFBQyxhQUFBO0FBQUEsU0FBQUMsZUFBQTtFQUFBLElBQUFDLElBQUE7RUFBQSxJQUFBQyxJQUFBO0VBQUEsSUFBQUMsTUFBQSxPQUFBQyxRQUFBO0VBQUEsSUFBQUMsR0FBQTtFQUFBLElBQUFDLFlBQUE7SUFBQUwsSUFBQTtJQUFBTSxZQUFBO01BQUE7UUFBQUMsS0FBQTtVQUFBQyxJQUFBO1VBQUFDLE1BQUE7UUFBQTtRQUFBQyxHQUFBO1VBQUFGLElBQUE7VUFBQUMsTUFBQTtRQUFBO01BQUE7TUFBQTtRQUFBRixLQUFBO1VBQUFDLElBQUE7VUFBQUMsTUFBQTtRQUFBO1FBQUFDLEdBQUE7VUFBQUYsSUFBQTtVQUFBQyxNQUFBO1FBQUE7TUFBQTtJQUFBO0lBQUFFLEtBQUE7TUFBQTtRQUFBQyxJQUFBO1FBQUFDLElBQUE7VUFBQU4sS0FBQTtZQUFBQyxJQUFBO1lBQUFDLE1BQUE7VUFBQTtVQUFBQyxHQUFBO1lBQUFGLElBQUE7WUFBQUMsTUFBQTtVQUFBO1FBQUE7UUFBQUssR0FBQTtVQUFBUCxLQUFBO1lBQUFDLElBQUE7WUFBQUMsTUFBQTtVQUFBO1VBQUFDLEdBQUE7WUFBQUYsSUFBQTtZQUFBQyxNQUFBO1VBQUE7UUFBQTtRQUFBRCxJQUFBO01BQUE7SUFBQTtJQUFBTyxTQUFBO01BQUE7UUFBQUQsR0FBQTtVQUFBUCxLQUFBO1lBQUFDLElBQUE7WUFBQUMsTUFBQTtVQUFBO1VBQUFDLEdBQUE7WUFBQUYsSUFBQTtZQUFBQyxNQUFBO1VBQUE7UUFBQTtRQUFBTyxJQUFBO1FBQUFDLFNBQUE7VUFBQVYsS0FBQTtZQUFBQyxJQUFBO1lBQUFDLE1BQUE7VUFBQTtVQUFBQyxHQUFBO1lBQUFGLElBQUE7WUFBQUMsTUFBQTtVQUFBO1FBQUE7UUFBQUQsSUFBQTtNQUFBO0lBQUE7SUFBQVUsQ0FBQTtNQUFBO01BQUE7SUFBQTtJQUFBQyxDQUFBO01BQUE7SUFBQTtJQUFBQyxDQUFBO01BQUE7SUFBQTtJQUFBQyxlQUFBO0lBQUFwQixJQUFBO0VBQUE7RUFBQSxJQUFBcUIsUUFBQSxHQUFBcEIsTUFBQSxDQUFBRSxHQUFBLE1BQUFGLE1BQUEsQ0FBQUUsR0FBQTtFQUFBLEtBQUFrQixRQUFBLENBQUF0QixJQUFBLEtBQUFzQixRQUFBLENBQUF0QixJQUFBLEVBQUFDLElBQUEsS0FBQUEsSUFBQTtJQUFBcUIsUUFBQSxDQUFBdEIsSUFBQSxJQUFBSyxZQUFBO0VBQUE7RUFBQSxJQUFBa0IsY0FBQSxHQUFBRCxRQUFBLENBQUF0QixJQUFBO0VBQUE7SUFXNUI7SUFBQUQsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQXdCLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUF4QixjQUFBO0FBQUFBLGNBQUEsR0FBQW1CLENBQUE7QUFIWixNQUFNTSxJQUFJO0FBQUc7QUFBQUMsSUFBQSxJQU1YO0VBQUE7RUFBQSxJQU5ZO01BQ1pDLFVBQVU7TUFBQTtNQUFBLENBQUEzQixjQUFBLEdBQUFxQixDQUFBLFVBQUcsRUFBRTtNQUNmTyxPQUFPO01BQ1BDO0lBRUssQ0FBQyxHQUFBSCxJQUFBO0lBREhJLFNBQVMsT0FBQUMseUJBQUEsQ0FBQWpDLE9BQUEsRUFBQTRCLElBQUEsRUFBQS9CLFNBQUE7RUFBQTtFQUFBSyxjQUFBLEdBQUFvQixDQUFBO0VBQUFwQixjQUFBLEdBQUFtQixDQUFBO0VBRVosaUNBQUF0QixLQUFBO0VBQUM7RUFBQUwsTUFBQTtFQUFBO0VBQUFNLE9BQUs7RUFBQTtFQUFBO0lBQ0orQixTQUFTO0lBQUU7SUFBQTtJQUFBRztJQUFBQTtJQUFBQTtJQUFBQSxPQUFFO0lBQUNDO0lBQUFBO0lBQUFBO0lBQUFBLE9BQU0sQ0FBQ0MsSUFBSTtJQUFFRDtJQUFBQTtJQUFBQTtJQUFBQSxPQUFNLENBQUNFLFNBQVMsRUFBRU4sU0FBUyxDQUFFO0lBQ3hETyxHQUFHLEVBQUVSLE9BQVE7SUFDYlMsR0FBRyxFQUFFVixVQUFXO0lBQ2hCVyxLQUFLLEVBQUUsR0FBSTtJQUNYQyxNQUFNLEVBQUUsR0FBSTtJQUFBQyxNQUFBO0lBQUFDLFFBQUE7TUFBQUMsUUFBQSxFQUFBOUMsWUFBQTtNQUFBK0MsVUFBQTtNQUFBQyxZQUFBO0lBQUE7RUFBQSxDQUNiLENBQUM7QUFBRCxDQUNGO0FBQUM7QUFBQSxJQUFBQyxRQUFBLEdBRWFwQixJQUFJO0FBQUE7QUFBQXFCLE9BQUEsQ0FBQWhELE9BQUEsR0FBQStDLFFBQUEiLCJpZ25vcmVMaXN0IjpbXX0=

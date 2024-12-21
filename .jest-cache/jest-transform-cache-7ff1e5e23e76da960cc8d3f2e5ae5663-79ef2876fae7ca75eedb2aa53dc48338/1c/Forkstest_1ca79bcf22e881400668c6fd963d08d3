@@ -1,0 +1,40 @@
+8f373ab93c49bc31c9e1a51b88fbb58b
+"use strict";
+
+_getJestObj().mock('../../utils/fetcher', () => ({
+  fetcher: jest.fn().mockResolvedValue([{
+    full_name: 'mock name'
+  }])
+}));
+var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefault");
+var _react = _interopRequireDefault(require("react"));
+var _react2 = require("@testing-library/react");
+var _ = _interopRequireDefault(require("."));
+var _jsxFileName = "C:\\Users\\DELL\\Desktop\\Test2-task\\components\\Forks\\Forks.test.tsx";
+var __jsx = _react.default.createElement;
+function _getJestObj() {
+  const {
+    jest
+  } = require("@jest/globals");
+  _getJestObj = () => jest;
+  return jest;
+}
+describe('Badges', () => {
+  it('should render correctly', async () => {
+    const {
+      container
+    } = (0, _react2.render)(__jsx(_.default, {
+      forkUrl: 'htpp://www.api.github.mock',
+      __self: void 0,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 17,
+        columnNumber: 7
+      }
+    }));
+    await (0, _react2.waitFor)(() => {
+      expect(container.getElementsByClassName('container')[0]).toBeDefined();
+    });
+  });
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJfZ2V0SmVzdE9iaiIsIm1vY2siLCJmZXRjaGVyIiwiamVzdCIsImZuIiwibW9ja1Jlc29sdmVkVmFsdWUiLCJmdWxsX25hbWUiLCJfaW50ZXJvcFJlcXVpcmVEZWZhdWx0IiwicmVxdWlyZSIsIl9yZWFjdCIsIl9yZWFjdDIiLCJfIiwiX2pzeEZpbGVOYW1lIiwiX19qc3giLCJkZWZhdWx0IiwiY3JlYXRlRWxlbWVudCIsImRlc2NyaWJlIiwiaXQiLCJjb250YWluZXIiLCJyZW5kZXIiLCJmb3JrVXJsIiwiX19zZWxmIiwiX19zb3VyY2UiLCJmaWxlTmFtZSIsImxpbmVOdW1iZXIiLCJjb2x1bW5OdW1iZXIiLCJ3YWl0Rm9yIiwiZXhwZWN0IiwiZ2V0RWxlbWVudHNCeUNsYXNzTmFtZSIsInRvQmVEZWZpbmVkIl0sInNvdXJjZXMiOlsiRm9ya3MudGVzdC50c3giXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IFJlYWN0IGZyb20gJ3JlYWN0JztcclxuaW1wb3J0IHsgcmVuZGVyLCB3YWl0Rm9yIH0gZnJvbSAnQHRlc3RpbmctbGlicmFyeS9yZWFjdCc7XHJcblxyXG5pbXBvcnQgRm9ya3MgZnJvbSAnLic7XHJcblxyXG5qZXN0Lm1vY2soJy4uLy4uL3V0aWxzL2ZldGNoZXInLCAoKSA9PiAoe1xyXG4gIGZldGNoZXI6IGplc3QuZm4oKS5tb2NrUmVzb2x2ZWRWYWx1ZShbXHJcbiAgICB7XHJcbiAgICAgIGZ1bGxfbmFtZTogJ21vY2sgbmFtZScsXHJcbiAgICB9LFxyXG4gIF0pLFxyXG59KSk7XHJcblxyXG5kZXNjcmliZSgnQmFkZ2VzJywgKCkgPT4ge1xyXG4gIGl0KCdzaG91bGQgcmVuZGVyIGNvcnJlY3RseScsIGFzeW5jICgpID0+IHtcclxuICAgIGNvbnN0IHsgY29udGFpbmVyIH0gPSByZW5kZXIoXHJcbiAgICAgIDxGb3JrcyBmb3JrVXJsPXsnaHRwcDovL3d3dy5hcGkuZ2l0aHViLm1vY2snfSAvPixcclxuICAgICk7XHJcblxyXG4gICAgYXdhaXQgd2FpdEZvcigoKSA9PiB7XHJcbiAgICAgIGV4cGVjdChjb250YWluZXIuZ2V0RWxlbWVudHNCeUNsYXNzTmFtZSgnY29udGFpbmVyJylbMF0pLnRvQmVEZWZpbmVkKCk7XHJcbiAgICB9KTtcclxuICB9KTtcclxufSk7XHJcbiJdLCJtYXBwaW5ncyI6Ijs7QUFLQUEsV0FBQSxHQUFLQyxJQUFJLENBQUMscUJBQXFCLEVBQUUsT0FBTztFQUN0Q0MsT0FBTyxFQUFFQyxJQUFJLENBQUNDLEVBQUUsQ0FBQyxDQUFDLENBQUNDLGlCQUFpQixDQUFDLENBQ25DO0lBQ0VDLFNBQVMsRUFBRTtFQUNiLENBQUMsQ0FDRjtBQUNILENBQUMsQ0FBQyxDQUFDO0FBQUMsSUFBQUMsc0JBQUEsR0FBQUMsT0FBQTtBQVhKLElBQUFDLE1BQUEsR0FBQUYsc0JBQUEsQ0FBQUMsT0FBQTtBQUNBLElBQUFFLE9BQUEsR0FBQUYsT0FBQTtBQUVBLElBQUFHLENBQUEsR0FBQUosc0JBQUEsQ0FBQUMsT0FBQTtBQUFzQixJQUFBSSxZQUFBO0FBQUEsSUFBQUMsS0FBQSxHQUFBSixNQUFBLENBQUFLLE9BQUEsQ0FBQUMsYUFBQTtBQUFBLFNBQUFmLFlBQUE7RUFBQTtJQUFBRztFQUFBLElBQUFLLE9BQUE7RUFBQVIsV0FBQSxHQUFBQSxDQUFBLEtBQUFHLElBQUE7RUFBQSxPQUFBQSxJQUFBO0FBQUE7QUFVdEJhLFFBQVEsQ0FBQyxRQUFRLEVBQUUsTUFBTTtFQUN2QkMsRUFBRSxDQUFDLHlCQUF5QixFQUFFLFlBQVk7SUFDeEMsTUFBTTtNQUFFQztJQUFVLENBQUMsR0FBRyxJQUFBQyxjQUFNLEVBQzFCTixLQUFBLENBQUNGLENBQUEsQ0FBQUcsT0FBSztNQUFDTSxPQUFPLEVBQUUsNEJBQTZCO01BQUFDLE1BQUE7TUFBQUMsUUFBQTtRQUFBQyxRQUFBLEVBQUFYLFlBQUE7UUFBQVksVUFBQTtRQUFBQyxZQUFBO01BQUE7SUFBQSxDQUFFLENBQ2pELENBQUM7SUFFRCxNQUFNLElBQUFDLGVBQU8sRUFBQyxNQUFNO01BQ2xCQyxNQUFNLENBQUNULFNBQVMsQ0FBQ1Usc0JBQXNCLENBQUMsV0FBVyxDQUFDLENBQUMsQ0FBQyxDQUFDLENBQUMsQ0FBQ0MsV0FBVyxDQUFDLENBQUM7SUFDeEUsQ0FBQyxDQUFDO0VBQ0osQ0FBQyxDQUFDO0FBQ0osQ0FBQyxDQUFDIiwiaWdub3JlTGlzdCI6W119
