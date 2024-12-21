@@ -1,0 +1,25 @@
+version: "1"
+
+checks:
+  method-complexity:
+    config:
+      threshold: 15 # default is 5
+  method-lines:
+    config:
+      threshold: 40 # default is 25
+  file-lines:
+    config:
+      threshold: 350
+plugins:
+  duplication:
+    config:
+      count_threshold: 3 # default is 2
+      languages:
+        javascript:
+          mass_threshold: 55
+exclude_patterns:
+- "webpack.config.js"
+- "/*.test.tsx"
+- "/*.test.ts"
+- "src/adsPositions/*.ts"
+
