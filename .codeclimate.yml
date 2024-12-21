@@ -18,8 +18,7 @@ plugins:
         javascript:
           mass_threshold: 55
 exclude_patterns:
-- "webpack.config.js"
+- "coverage"
 - "/*.test.tsx"
 - "/*.test.ts"
-- "src/adsPositions/*.ts"
 
